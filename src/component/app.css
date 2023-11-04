@@ -49,15 +49,6 @@
     align-items: center;
   }
   
-/* Navbar styles */
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  } */
-  
   .options-box{
     width: 100%;
     font-size: 10px;
@@ -104,8 +95,7 @@
   }
   
   /* Modal styles */
- 
-  
+
   .options-box {
     display: flex;
     flex-direction: column;
