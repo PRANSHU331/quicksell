@@ -37,18 +37,6 @@
   font-size: 8px;
 }
 
-/* .modal {
-  position: absolute;
-  top: 120px;
-  left: 200px;
-  width: 200px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: left;
-} */
-
 .overlay {
   position: fixed;
   top: 0;
@@ -60,15 +48,6 @@
   justify-content: center;
   align-items: center;
 }
-
-/* Navbar styles */
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-} */
 
 .options-box{
   width: 100%;
@@ -116,8 +95,6 @@ font-size: 8px;
 }
 
 /* Modal styles */
-
-
 .options-box {
   display: flex;
   flex-direction: column;
@@ -127,9 +104,8 @@ font-size: 8px;
 .kanban-board {
   display: flex;
   flex-wrap: nowrap;
-  /* overflow-x: auto; */
-  width: auto; /* Set the width to 100% to fill the entire page */
-  height: calc(100vh - 64px);  /* Set the height to 100% of the viewport height to fill the entire page */
+  width: auto; 
+  height: calc(100vh - 64px); 
   padding: 10px; 
 }
 
@@ -138,7 +114,7 @@ font-size: 8px;
   flex-direction: row;
   margin-right: auto;
   min-width: inherit;
-  flex-grow: 1; /* Distribute the available space equally among status containers */
+  flex-grow: 1; 
   max-width: 150px;
   width: 10px;
   
@@ -160,25 +136,12 @@ font-size: 8px;
 }
 
 /* Ticket styles */
-
 .ticket {
-/*     
-  display: flex;
-  /* justify-content: space-around; 
-  flex-direction: column;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 5px 0;
-  width: 200px;
-  height: 65px;
-  overflow: auto;  
-  */
-  width: 100%; /* Set the width to 100% of its container */
-  margin: 5px; /* Add some margin for spacing */
-  border: 1px solid #5d5a5a; /* Add a border for visual separation */
-  padding: 5px; /* Add some padding for spacing inside the ticket */
-  background-color: #fff; /* Set the background color */
+  width: 100%; 
+  margin: 5px;
+  border: 1px solid #5d5a5a; 
+  padding: 5px; 
+  background-color: #fff; 
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
@@ -195,11 +158,8 @@ font-size: 8px;
 
 
 /* User details styles */
-/* Add this CSS to make user details display horizontally */
-
-
 .user-name {
-margin-right: 10px; /* Add some margin to separate user name and availability */
+margin-right: 10px;
 text-align: end;
 font-size: 10px;
 width: 200px;
@@ -227,7 +187,6 @@ opacity: 0.5;
 }
 
 .blur-icon-done {
-/* opacity: 0.5; */
 color: #007BFF;
 }
 
@@ -238,7 +197,6 @@ padding-right: 3px;
 
 }
 .blur-icon-progress {
-/* opacity: 0.5; */
 color: rgb(219, 219, 7);
 }
 
@@ -262,7 +220,7 @@ flex-direction: column;
 .ticket-info {
 display: flex;
 flex-direction: row;
-align-items: center; /* To align Ticket ID and User horizontally */
+align-items: center; 
 }
 
 .ticket-info .ticket-id {
@@ -273,7 +231,7 @@ font-weight: bold;
 background-color: #007BFF;
 color: #fff;
 border: none;
-border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+border-radius: 50%; 
 padding: 5px;
 cursor: pointer;
 }
@@ -284,22 +242,15 @@ text-align: left;
 padding: 1%;
 padding-bottom: none;
 font-size: 0.5rem;
-display: block; /* Display Title and Tags as block elements to show them vertically */
+display: block; 
 }
 
 .tags{
   font-size: 8px;
- 
   border: 1px solid #ddd;
   border-radius: 3px;
   padding: 2px;
-  /* margin: 5px 0; */
   width: 40%;
-  /* height: 5%; */
-  /* padding: 0.3rem;  */
-  /* position: relative;  */
-  /* margin: 0.5rem; */
-  /* padding-left: 10px; */
   padding-top: 4.5px;
   text-align: center;
 }
@@ -366,26 +317,3 @@ text-align: center;
 font-size: 0.8rem;
 
 }
-
-
-
-/* .user-details {
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.user-details {
-  display: flex;
-  flex-direction: column; 
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-  min-width: 80px;
-  text-align: center;
-
-}
- */
