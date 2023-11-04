@@ -106,7 +106,6 @@ const App = () => {
           </button>
         </div>
         <div className="right-section">
-          {/* Add other navbar elements on the right side here */}
         </div>
       </nav>
       <Modal
